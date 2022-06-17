@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace renkAyarlama
+namespace birimDönüştürme
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace renkAyarlama
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new renkAyarla());
+            Application.Run(new birimDönüştürme());
         }
     }
 }
